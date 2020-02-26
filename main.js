@@ -1,10 +1,10 @@
 var videoPlayButton,
-	videoWrapper = document.getElementsByClassName('video-wrapper')[0],
+    videoWrapper = document.getElementsByClassName('video-wrapper')[0],
     video = document.getElementsByTagName('video')[0],
     videoMethods = {
         renderVideoPlayButton: function() {
             if (videoWrapper.contains(video)) {
-				this.formatVideoPlayButton()
+                this.formatVideoPlayButton()
                 video.classList.add('has-media-controls-hidden')
                 videoPlayButton = document.getElementsByClassName('video-overlay-play-button')[0]
                 videoPlayButton.addEventListener('click', this.hideVideoPlayButton)
@@ -28,6 +28,6 @@ var videoPlayButton,
             video.classList.remove('has-media-controls-hidden')
             video.setAttribute('controls', 'controls')
         }
-	}
+    }
 
 videoMethods.renderVideoPlayButton()
