@@ -10,7 +10,8 @@
     /*****esconder*****/
     
     .video-boasvindasM,
-    .video-diretorM {
+    .video-diretorM,
+    .fotosM {
         display: none;
     }
     /*****logo*****/
@@ -370,4 +371,104 @@
         width: 11.45%;
         height: 9.9%;
         font-size: 1vw;
+    }
+    /**********ambiente***********/
+    
+    #ambiente {
+        background: black;
+        width: 100%;
+        height: 109.16%;
+        position: absolute;
+        top: 325.7%;
+    }
+    
+    .titulo-ambiente p {
+        font-size: 5vw;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        font-weight: lighter;
+        padding-left: 5.9%;
+    }
+    
+    .titulo-ambiente span {
+        font-weight: bold;
+    }
+    
+    .titulo-ambiente {
+        width: 51.3%;
+        background: #FFFFFF;
+        position: absolute;
+        top: -5.4%;
+        left: 4.17%;
+    }
+    
+    #carrosel-fotos {
+        position: relative;
+    }
+    
+    #ambiente .fotos {
+        display: block;
+        width: 56.56%;
+        height: 61.45%;
+        position: absolute;
+        top: 6.96%;
+        left: 13.59%;
+    }
+    /*
+    #ambiente .numero-foto {
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+    
+    #ambiente .numero-foto .foto-atual {
+        font-size: 50px;
+        position: absolute;
+        top: 14px;
+        left: 1243px;
+    }
+    
+    #ambiente .total-fotos {
+        opacity: 50%;
+        font-size: 25px;
+        position: absolute;
+        top: 40px;
+        left: 1307px;
+    }
+    
+    #ambiente .allHands {
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    #ambiente .titulo-allHands {
+        position: absolute;
+        top: 222px;
+        left: 378px;
+        text-transform: uppercase;
+        font-size: 50px;
+        font-weight: bold;
+        width: 168px;
+    }
+    
+    #ambiente .descricao-allHands {
+        position: absolute;
+        top: 365px;
+        left: 378px;
+        right: 387px;
+    }
+    */
+    
+    #setas .direita {
+        position: absolute;
+        top: 64.04%;
+        left: 74.9%;
+        width: 3.34%
+    }
+    
+    #setas .esquerda {
+        position: absolute;
+        top: 66.82%;
+        left: 71.77%;
+        width: 2.46%
     }
