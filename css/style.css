@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+
+/*****esconder*****/
+
+.video-boasvindasM {
+    display: none;
+}
+
+
+/*****logo*****/
+
+.logo {
+    width: 7.5%;
+    height: auto;
+    position: absolute;
+    top: 3.87%;
+    left: 4.5%;
+    z-index: 1;
+}
+
+
+/*****principal*****/
+
+#principal {
+    position: relative;
+}
+
+
+/******boas vindas*****/
+
+#boas-vindas {
+    position: absolute;
+    top: 0;
+}
+
+#boas-vindas .ola {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 100%;
+    text-align: center;
+    position: absolute;
+    top: 286px;
+    left: 637px;
+    font-weight: lighter;
+    z-index: 1;
+}
+
+
+/*****diretor******/
+
+.video-diretor {
+    width: 80%;
+}
+
+
+/*********video*************/
+
+.video-boasvindas {
+    position: relative;
+}
+
+.video-boasvindas>video {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.video-boasvindas>video.has-media-controls-hidden::-webkit-media-controls {
+    display: none;
+}
+
+.video-overlay-play-button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 10px calc(50% - 40px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0.95;
+    cursor: pointer;
+    background-image: linear-gradient(transparent, #000);
+    transition: opacity 150ms;
+}
+
+.video-overlay-play-button:hover {
+    opacity: 1;
+}
+
+.video-overlay-play-button.is-hidden {
+    display: none;
+}
