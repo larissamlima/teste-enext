@@ -755,7 +755,7 @@ footer p {
         top: 0;
     }
     #boas-vindas .ola {
-        width: 37.9%;
+        width: 100%;
         height: 12.3%;
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
@@ -764,7 +764,7 @@ footer p {
         text-align: center;
         position: absolute;
         top: 32.19%;
-        left: 10%;
+        left: 0;
         font-weight: lighter;
         z-index: 1;
     }
