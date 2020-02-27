@@ -318,6 +318,7 @@
         border: none;
         border-bottom: 1px solid #FFFFFF;
         width: 26.9%;
+        font-size: 1.2vw;
     }
     
     .lateral-contato .email {
@@ -328,6 +329,7 @@
         border: none;
         border-bottom: 1px solid #FFFFFF;
         width: 26.9%;
+        font-size: 1.2vw;
     }
     
     .lateral-contato .mensagem {
@@ -338,6 +340,7 @@
         border: none;
         border-bottom: 1px solid #FFFFFF;
         width: 26.9%;
+        font-size: 1.2vw;
     }
     
     #contato input[type='file'] {
@@ -387,7 +390,8 @@
         font-family: 'Roboto', sans-serif;
         text-transform: uppercase;
         font-weight: lighter;
-        padding-left: 5.9%;
+        padding-left: 9.9%;
+        padding-bottom: 5%;
     }
     
     .titulo-ambiente span {
@@ -402,19 +406,19 @@
         left: 4.17%;
     }
     
-    #carrosel-fotos {
+    #carrosel-fotos .fotos {
         position: relative;
     }
     
     #ambiente .fotos {
         display: block;
-        width: 56.56%;
-        height: 61.45%;
         position: absolute;
         top: 6.96%;
-        left: 13.59%;
+        left: 7%;
+        width: 76.56%;
+        height: auto;
     }
-    /*
+    
     #ambiente .numero-foto {
         font-family: 'Roboto', sans-serif;
         color: #FFFFFF;
@@ -422,18 +426,18 @@
     }
     
     #ambiente .numero-foto .foto-atual {
-        font-size: 50px;
+        font-size: 1.8vw;
         position: absolute;
-        top: 14px;
-        left: 1243px;
+        top: 3.08%;
+        left: 64.74%;
     }
     
     #ambiente .total-fotos {
         opacity: 50%;
-        font-size: 25px;
+        font-size: 1vw;
         position: absolute;
-        top: 40px;
-        left: 1307px;
+        top: 4%;
+        left: 67.07%;
     }
     
     #ambiente .allHands {
@@ -443,21 +447,21 @@
     
     #ambiente .titulo-allHands {
         position: absolute;
-        top: 222px;
-        left: 378px;
+        top: 18.83%;
+        left: 72.24%;
         text-transform: uppercase;
-        font-size: 50px;
+        font-size: 2.7vw;
         font-weight: bold;
-        width: 168px;
+        width: 9.27%;
     }
     
     #ambiente .descricao-allHands {
         position: absolute;
-        top: 365px;
-        left: 378px;
-        right: 387px;
+        top: 31.21%;
+        left: 72.24%;
+        right: 16%;
+        font-size: 1vw;
     }
-    */
     
     #setas .direita {
         position: absolute;
@@ -471,4 +475,63 @@
         top: 66.82%;
         left: 71.77%;
         width: 2.46%
+    }
+    /************** localicacao**********/
+    
+    #localizacao {
+        background: black;
+        width: 100%;
+        height: auto;
+    }
+    
+    #localizacao .tituloLoc {
+        position: absolute;
+        top: 414.07%;
+        left: 36.72%;
+        font-size: 2.5vw;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 26.46%;
+        font-weight: lighter;
+    }
+    
+    #localizacao .tituloLoc span {
+        font-weight: bold;
+    }
+    
+    #localizacao .mapa {
+        border: none;
+        position: absolute;
+        top: 424.07%;
+        left: 0;
+        width: 100%;
+        height: 50%;
+    }
+    /****************footer************/
+    
+    .footer {
+        background: black;
+        color: white;
+        width: 100%;
+        height: 20%;
+        position: absolute;
+        top: 550.96%;
+    }
+    
+    .footer .logo {
+        position: absolute;
+        top: 25.3%;
+        left: 48.29%;
+        width: 3.43%;
+        height: auto;
+    }
+    
+    .footer p {
+        position: absolute;
+        top: 53.07%;
+        left: 15.05%;
+        right: 12.24%;
+        font-size: 1vw;
+        text-align: center;
     }
