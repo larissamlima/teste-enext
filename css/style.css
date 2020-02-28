@@ -783,21 +783,21 @@ footer p {
         font-weight: bold;
     }
     /*********video boas vindas*************/
-    #boas-vindas .video-wrapperM {
+    #boas-vindas .video-wrapper {
         position: relative;
     }
-    #boas-vindas .video-wrapperM>video {
+    #boas-vindas .video-wrapper>video {
         width: 100%;
         vertical-align: middle;
     }
-    #boas-vindas .video-wrapperM>video.has-media-controls-hidden::-webkit-media-controls {
+    #boas-vindas .video-wrapper>video.has-media-controls-hidden::-webkit-media-controls {
         display: none;
     }
     #boas-vindas .video-overlay-play-button {
         box-sizing: border-box;
         width: 100%;
         height: 100%;
-        padding: 25%;
+        padding: 40%;
         position: absolute;
         top: 13%;
         left: 0;
@@ -805,6 +805,7 @@ footer p {
         opacity: 0.95;
         cursor: pointer;
         transition: opacity 150ms;
+        z-index: 1;
     }
     #boas-vindas .video-overlay-play-button:hover {
         opacity: 1;
@@ -863,12 +864,35 @@ footer p {
         right: 25.6%;
     }
     /*********video diretor*************/
-    #equipe-diretor>.video-wrapperM>.video-diretorM {
+    #equipe-diretor>.video-wrapper>.video-diretorM {
         width: 73.65%;
         position: absolute;
         top: 144.84%;
         left: 22.19%;
         z-index: 2;
+    }
+    #equipe-diretor .video-wrapper>video.has-media-controls-hidden::-webkit-media-controls {
+        display: none;
+    }
+    #equipe-diretor .video-overlay-play-button {
+        box-sizing: border-box;
+        width: 100%;
+        height: 100%;
+        padding: 43%;
+        position: absolute;
+        top: 109%;
+        left: 10%;
+        display: block;
+        opacity: 0.95;
+        cursor: pointer;
+        transition: opacity 150ms;
+        z-index: 2;
+    }
+    #equipe-diretor .video-overlay-play-button:hover {
+        opacity: 1;
+    }
+    #equipe-diretor .video-overlay-play-button.is-hidden {
+        display: none;
     }
     /********** equipe *********/
     #equipe {
