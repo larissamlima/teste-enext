@@ -13,7 +13,9 @@ body {
 
 .video-boasvindasM,
 .video-diretorM,
-.fotosM {
+.fotosM,
+#menu-lateral,
+#bt-menu {
     display: none;
 }
 
@@ -673,6 +675,7 @@ footer p {
     right: 12.24%;
     font-size: 1vw;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -689,14 +692,17 @@ footer p {
     /*****esconder*****/
     .video-boasvindasM,
     .video-diretorM,
-    .fotosM {
+    .fotosM,
+    #menu-lateral,
+    #bt-menu {
         display: block;
     }
     .video-boasvindas,
     .video-diretor,
     #barra-lateral,
     .membro3,
-    .membro4 {
+    .membro4,
+    #fundo {
         display: none;
     }
     .fotos {
@@ -1196,5 +1202,62 @@ footer p {
         right: 5.24%;
         font-size: 3vw;
         text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    /************menu lateral***********/
+    .bt-menu {
+        width: 25%;
+        height: 15.56%;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 3.2%;
+        left: 5.56%;
+        border: 0;
+        z-index: 4;
+        display: block;
+        cursor: pointer;
+    }
+    #menu-lateral {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        z-index: 3;
+        margin-left: -100%;
+    }
+    #menu-lateral ul {
+        position: absolute;
+        left: 0;
+        padding-top: 20%;
+        margin: 0;
+        width: 100%;
+        height: 120%;
+        list-style: none;
+        background: #292929;
+    }
+    #menu-lateral .simbolo {
+        position: absolute;
+        margin-top: 6%;
+        left: 12%;
+        z-index: 2;
+        width: 4%;
+    }
+    #menu-lateral a {
+        text-decoration: none;
+        color: #FFFFFF;
+        font-family: 'Roboto', sans-serif;
+        font-size: 5vw;
+        text-transform: uppercase;
+        display: block;
+        padding: 5%;
+        padding-left: 20%;
+    }
+    #bt-menu:checked~#menu-lateral {
+        margin-left: 0;
+        transition: all .4s;
+    }
+    /*esconder checkbox*/
+    #bt-menu {
+        display: none;
     }
 }
